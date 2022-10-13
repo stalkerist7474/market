@@ -166,8 +166,18 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
-
+gettext_noop = lambda s: s
 LANGUAGE_CODE = 'ru'
+
+
+LANGUAGES = (
+    ('vi', gettext_noop('Vietnam')),
+    ('ru', gettext_noop('Russia')),
+    
+)
+
+
+
 
 TIME_ZONE = 'UTC'
 
