@@ -1,1 +1,1 @@
-Интерет магазин на oscar Django
+Интернет магазин на oscar Django
